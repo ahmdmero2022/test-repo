@@ -1,0 +1,31 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .parent-region {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: gray 0px;
+      background-color: #C4E4FF;
+      box-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 600px;
+      padding: 2px;
+    } 
+    .child-region {
+      display: block;
+      border: gray 2px;
+      border-radius: 20px;
+      text-align: center;
+      background-color:white;
+      margin-left: auto;
+      margin-right: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+      width: 200px;
+    } 
